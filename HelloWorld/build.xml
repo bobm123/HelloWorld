@@ -2,6 +2,7 @@
 <project default="create_run_jar" name="Create Runnable Jar for Project HelloWorld">
     <!--this file was created by Eclipse Runnable JAR Export Wizard-->
     <!--ANT 1.7 is required                                        -->
+    <!--Changed to relative paths                                  -->
     <target name="create_run_jar">
         <jar destfile="./build/HelloWorld.jar" filesetmanifest="mergewithoutmain">
             <manifest>
